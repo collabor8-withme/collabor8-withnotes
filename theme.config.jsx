@@ -1,5 +1,4 @@
 import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config = {
   logo: "Collabor8 WithNotes",
@@ -15,26 +14,10 @@ const config = {
   chat: {
     link: 'https://discord.com',
   },
-  sidebar: {
-    defaultMenuCollapseLevel: 1,
-    autoCollapse: false,
-    toggleButton: true,
-  },
   toc: {
     title: "🔗 Table Of Content"
   },
-  i18n: [
-    { locale: 'en', text: 'English' },
-    { locale: 'zh', text: '中文' },
-    { locale: 'de', text: 'Deutsch' },
-    { locale: 'ar', text: 'العربية', direction: 'rtl' }
-  ],
-  gitTimestamp: (
-    <>
-      <h1>demo</h1>
-    </>
-  ),
-  docsRepositoryBase: 'https://github.com/scoheart',
+  docsRepositoryBase: 'https://github.com/',
   footer: {
     text: (
       <span>
