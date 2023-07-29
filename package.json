@@ -1,17 +1,12 @@
 {
-  "dependencies": {
-    "next": "^13.4.12",
-    "nextra": "^2.10.0",
-    "nextra-theme-docs": "^2.10.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
   "name": "collabor8-withnotes",
   "version": "1.0.0",
   "main": "next.config.js",
   "devDependencies": {},
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -24,5 +19,12 @@
     "url": "https://github.com/collabor8-withme/collabor8-withnotes/issues"
   },
   "homepage": "https://github.com/collabor8-withme/collabor8-withnotes#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "next": "^13.4.12",
+    "nextra": "^2.10.0",
+    "nextra-theme-docs": "^2.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
