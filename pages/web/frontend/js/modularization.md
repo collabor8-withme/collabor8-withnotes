@@ -102,8 +102,44 @@ import {name1, name2} from '.....js'
 ```
 
 
-家里修房子 铺瓷砖
+## 总结
+用什么样的模块化导出 
+在导入的时候就要安装一样的模块化规范导入
 
-1. 买地板砖 + 买工人
-2. 买地板砖 + 租工人
-可以有 没必要
+Commonjs
+```
+module.exports = {
+
+}
+```
+
+```
+const a = require("")
+```
+
+ESM
+```
+export default Vue;
+```
+
+```
+import Vue from "xx.js"
+```
+
+amd\\cmd
+```
+define()
+```
+
+umd
+```
+IIFE + Closures 导出
+```
+
+```
+globalThis
+
+globalThis.Vue
+
+console.log(Vue)
+```

@@ -199,3 +199,130 @@ www就是代表他是一个Web服务
 - HTML       用来保存内容
 - URL           用来定位这个内容在哪里
 - HTTP         传输这个内容的协议
+
+
+git github pr issue git团队开发
+
+项目
+
+
+html  css
+
+js dom 2个月
+
+js 基础语法
+
+事件循环
+浏览器渲染原理
+异步编程
+
+节省时间 crash course
+
+需求分析
+
+Web开发  提供Web服务 万维网服务 通过在一台电脑上安装 Web服务器软件 来提供Web服务 让你访问超文本文档（HTML URL HTTP）
+原型设计 产品经理       蓝湖
+UI设计师 网页设计图       figma
+定义接口规范       接口文档
+并发  电商秒杀        1亿      javaEE          Tomcat、netty、undertown 
+前端 html css  js       Vue React Svelte Solid  切图仔
+后端  java Spirng   SpringBoot       生态好         go     Gin       Web框架          
+CRUD
+读源码
+增删改查
+Full stack 全栈    架构师
+python             django  、flask
+js           nestjs        koa        express      egg
+数据库           SQL        MySQL
+测试人员  
+运维人员    linux
+
+
+开源 分享 
+
+黑马 尚硅谷
+开源社区
+
+
+## 静态内容网页
+把内容直接写着HTML标签里
+
+## 动态内容网站
+### 前后端不分离(服务端渲染)
+HTML标签里没有直接写内容，而是通过模板引擎（jsp、php、asp）替换 
+
+js 的模块引擎（ejs）
+
+### 前后端分离 AJAX （客户端渲染）
+
+基础语法
+
+- 异步编程
+	- 事件循环
+	- 浏览器渲染原理
+	- 回调函数
+	- Promise
+	- Async Await
+	- AJAX 异步数据请求
+
+### 
+
+DOM API             js 去操作html
+
+代码 
+- 同步
+
+
+webpack
+rollup 
+
+
+立即执行函数  闭包
+
+- 异步
+
+AJAX
+
+Asynchronous JavaScript And JSON 规范
+
+ECMAScript
+ javascript 
+
+fetch
+axios
+$.ajax
+XHR
+
+XML缺点
+
+```
+<name>shuhao</name>
+<age>12</age>
+```
+
+
+``` 
+{
+	"name": "shuhao",
+	"age": 12
+}
+```
+
+前端 --》 AJAX --〉后端 --》 数据库
+								js
+				JSON         SQL
+前端 AJAX JSON  后端    SQL    关系型数据库MySQL
+										ORM  
+										数据库的对象 --》 JAVA对象 
+				      JAVA对象——XML对象
+XML ---- JS对象
+
+js对象的值    DOM API    挂在DOM HTML
+
+事件循环
+
+面向对象
+- 封装            闭包
+- 继承            ES5 类              原型 原型链       ES6 类《--  原型 原型链    
+- 多态
+

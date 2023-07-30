@@ -1,17 +1,19 @@
 # 以Runtime重新认知JavaScript
 
 ## JavaScript语言的执行方式
-
 解释型语言 --> 解释器
 
-GO 编译型
-
-## JS Runtime
-
-- browser
-- nodejs
-- deno
-- bun
+## JS Runtime 运行环境 解释器
+- Browser
+	- 谷歌浏览器    V8
+	- 火狐浏览器    SpiderMonkey
+	- IE浏览器             
+	- Edge浏览器
+	- 国产浏览器
+- Nodejs 
+	- V8
+- Deno
+- Bun
 
 ## 如何去执行一句代码
 
@@ -48,3 +50,5 @@ node index.js
 	- axios
 	- lodash
 	- jquery
+
+
