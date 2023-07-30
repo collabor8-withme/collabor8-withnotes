@@ -38,7 +38,12 @@ node index.js
 - ECMAscript
 - 内置的API
 	- Browser APIs
+		- DOM API
+		- BOM API
 	- Nodejs APIs
+		- fs模块
+		- http模块
+		- path模块
 - 外置的API、外部库
 	- axios
 	- lodash

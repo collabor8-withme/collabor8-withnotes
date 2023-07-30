@@ -1,4 +1,5 @@
 {
-    "classify": "Overview",
-    "python": "Python"
+    "overview": "Overview",
+    "python": "Python",
+    "javascript": "JavaScript"
 }

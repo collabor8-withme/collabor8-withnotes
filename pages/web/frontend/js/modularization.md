@@ -23,6 +23,8 @@ Nodejs这个runtime的横空出世，带来了Nodejs自己的模块化解决方�
 - module.exports 模块导出
 
 > 那么Browser Runtime才是主流的JavaScript Runtime，所以社区形成了一些可行的针对于Browser Runtime的模块化方案
+
+
 ## AMD
 > Asynchronous Module Definition 异步模块定义
 
