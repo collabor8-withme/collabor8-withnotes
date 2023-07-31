@@ -30,15 +30,26 @@
 - Windows Server
 
 ## 服务器软件种类
-- 文件服务器
-- 数据库服务器
-- 邮件服务器
-- 域名服务器
-- 代理服务器
-- FTP服务器软件 file transport protocol
+- Database服务器软件
+	- MySQL
+	- MongoDB
+- Mail服务器软件
+- DNS服务器软件
+	- BIND
+- 代理服务器软件
+	- clash
+	- v2ray
+- DHCP服务器软件
+- SSH服务器软件
+- FTP服务器软件
+	- vsftpd
 - 网页服务器/Web服务器软件
-	- Nginx    engine X     Web 服务
-- 应用服务器
+	- Apache（httpd）
+	- Nginx（engine X）
+	- Microsoft Internet Information Services（IIS）
+	- Tomcat
+	- Netty
+	- Tengine
+- 应用服务器软件
 
-一台电脑 安装代理服务器软件
 

@@ -1,6 +1,22 @@
 {
+    "- cs": {
+        "title": "🎃 Computer Science Basics",
+        "type": "separator"
+    },
     "cs":"Computer Science Basics",
+    "- pl": {
+        "title": "🍀 Programming Languages",
+        "type": "separator"
+    },
     "lang": "Programming Languages",
+    "- dp": {
+        "title": "⚙️ DevOps",
+        "type": "separator"
+    },
     "devops": "DevOps",
+    "- web": {
+        "title": "🛠️ Web Development",
+        "type": "separator"
+    },
     "web": "Web Development"
 }
