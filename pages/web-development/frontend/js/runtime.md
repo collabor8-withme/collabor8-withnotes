@@ -15,30 +15,52 @@
 - Deno
 - Bun
 
-## 如何去执行一句代码
-
+## 启动交互式解释器
 ### Browser
-
-控制台里面直接输入代码
-
+1. 右键鼠标，进入审查inspect
+2. F12
 ### Nodejs
+``` shell
+node
+```
 
-进入到node环境，直接输入代码
+``` javascript
 
-## 如何去执行单个js代码文件
+console.log("hello world");
+```
+### Deno
+``` shell
+deno
+```
 
+``` javascript
+console.log("hello world");
+```
+### Bun
+貌似没有提供交互式命令解释器
+
+## 执行单个js代码文件
+### Browser
+通过HTML的一个标签 script 去引入js文件
+``` html
+<script src="index.js"></script>
+```
 ### Nodejs
-
 ``` shell
 node index.js
 ```
-
-### Browser
-通过HTML的一个标签 script 去引入js文件
+### Deno
+``` shell
+deno run index.js
+```
+### Bun
+``` shell
+bun run index.js
+```
 
 ## 在Runtime基础上，划分js为三部分
 - ECMAscript
-- 内置的API
+- 运行环境提供的API
 	- Browser APIs
 		- DOM API
 		- BOM API
@@ -46,7 +68,7 @@ node index.js
 		- fs模块
 		- http模块
 		- path模块
-- 外置的API、外部库
+- 外部的第三方库
 	- axios
 	- lodash
 	- jquery

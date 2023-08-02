@@ -6,11 +6,8 @@
 - 加法模块
 - 减法模块
 
-## 原始的模块化开发
-通过script标签引入不同模块
-- 顺序的问题
-- 变量作用域的
-
+## IIFE
+> 立即执行函数
 ## Namespace
 > 命名空间
 
@@ -22,8 +19,9 @@ Nodejs这个runtime的横空出世，带来了Nodejs自己的模块化解决方�
 - require 模块导入
 - module.exports 模块导出
 
-> 那么Browser Runtime才是主流的JavaScript Runtime，所以社区形成了一些可行的针对于Browser Runtime的模块化方案
+<hr>
 
+> 那么Browser Runtime才是主流的JavaScript Runtime，所以社区形成了一些可行的针对于Browser Runtime的模块化方案
 
 ## AMD
 > Asynchronous Module Definition 异步模块定义
@@ -106,7 +104,7 @@ import {name1, name2} from '.....js'
 用什么样的模块化导出 
 在导入的时候就要安装一样的模块化规范导入
 
-Commonjs
+### Commonjs
 ```
 module.exports = {
 
@@ -117,7 +115,7 @@ module.exports = {
 const a = require("")
 ```
 
-ESM
+### ESM
 ```
 export default Vue;
 ```
@@ -126,15 +124,14 @@ export default Vue;
 import Vue from "xx.js"
 ```
 
-amd\\cmd
+### amd\\cmd
 ```
 define()
-```
 
-umd
+require()
 ```
-IIFE + Closures 导出
-```
+### umd
+IIFE + Closures
 
 ```
 globalThis
