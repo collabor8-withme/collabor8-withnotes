@@ -3,12 +3,12 @@
         "title": "🎃 Computer Science Basics",
         "type": "separator"
     },
-    "cs":"Computer Science Basics",
+    "computer-science-basics":"Computer Science Basics",
     "- pl": {
         "title": "🍀 Programming Languages",
         "type": "separator"
     },
-    "lang": "Programming Languages",
+    "programming-languages": "Programming Languages",
     "- dp": {
         "title": "⚙️ DevOps",
         "type": "separator"
@@ -18,5 +18,5 @@
         "title": "🛠️ Web Development",
         "type": "separator"
     },
-    "web": "Web Development"
+    "web-development": "Web Development"
 }
