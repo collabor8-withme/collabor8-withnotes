@@ -40,71 +40,66 @@ export PATH
 
 source .bashrc
 ```
-ip地址 = 网络号 + 主机号
-
-把主机号全为0 叫做那个网络
-
-00000000 00000000 00000000 00000000
-011111111 111111111 111111111 111111111
-
-
-10.
-
-172.
-
-192.168
-
-
-好记        juejin.cn
-
-- 正向代理
-- 反向代理
-
-web
-- URL
-- HTML
-- HTTP
-
-10.5.130.195
-
-10.0.0.0
 
 
 
 
-176.0.0.1
-192.168.1.10
+## 命令解释器
+### Windows
+- cmd
+- powershell
 
+### Linux
+- sh
+- zsh
+- bash
 
+### Unix （类UNIX）
+- zsh
+- bash
+- sh
 
+## 什么是环境变量
+环境变量就是存在电脑上的一个全局的变量
 
+## 环境变量分类
+- 用户级别的环境变量（用户变量）
+- 系统级别的环境变量（系统变量）
 
+## 环境变量举例
+``` shell
+env
+```
 
+- PWD 当前目录
+- HOME 家目录
 
-## js包管理器
-script       cdn 下载回来
-- npm
-- yarn
-- pnpm
+## PATH变量
+我们每次在终端输入一条指令，就会自动的在PATH变量保存的所有目录中去寻找这个指令的可执行文件。
 
-
-
-linux
+## 设置环境变量
 zsh
+``` shell
+cd ~
+
+vim .zshrc
+
+DEMO=2222
+
+export DEMO
+
+source .zshrc
+
+env
+```
+
 bash
-sh
+``` shell
+cd ~
 
-windows
-cmd
-powershell
+vim .bashrc
 
-macos 类UNIX
-zsh
-bash
-sh
+export DEMO=3333
 
-可执行文件
-
-环境变量 
-
-
+source .bashrc
+```

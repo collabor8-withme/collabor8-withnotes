@@ -19,6 +19,16 @@ sum(100, 200)
 sum("1", "2")        // error
 ```
 
+初始化配置文件
+```
+./node_modules/.bin/flow init
+
+yarn flow init
+
+npm exec flow init
+```
+
+没有安装插件的时候，只有运行时候，才会flow才会检测类型错误
 ``` shell
 ./node_modules/.bin/flow
 
@@ -26,6 +36,28 @@ yarn flow
 
 npm exec flow
 
+```
+
+安装插件之后，可以在vscode编码的时候直接看到错误
+`flow language support`
+
+最终执行的代码一定要是原始的js（不带任何flow类型注解的）
+``` shell
+npm install flow-remove-types
+
+yarn add flow-remove-types
+```
+
+``` shell
+yarn flow-remove-types demo.js -o demo_finish.js
+
+npm exec
+npm x
+npx flow-remove-types demo.js -o demo_finish.js
+
+./node_modules/.bin/flow-remove-types demo.js -o demo_finish.js
+
+npm run xxxx
 ```
 
 ## Primitive Type 原始类型
